@@ -1,0 +1,38 @@
+C:/Users/bryca/OneDrive/Documentos/chocorrol/ALU.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/chocorrol/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/chocorrol/B.v {2 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/chocorrol/B.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module B
+** Warning: C:/Users/bryca/OneDrive/Documentos/chocorrol/B.v(11): (vlog-2182) 'Mem' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	B
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/chocorrol/chocorrol.v {1 {vlog -work work -stats=none {C:\Users\bryca\OneDrive\Documentos\chocorrol\chocorrol.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module chocorrol
+
+Top level modules:
+	chocorrol
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/chocorrol/tb_chocorrol.v {1 {vlog -work work -stats=none {C:\Users\bryca\OneDrive\Documentos\chocorrol\tb_chocorrol.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_chocorrol
+
+Top level modules:
+	tb_chocorrol
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/chocorrol/A.v {2 {vlog -work work -stats=none {C:\Users\bryca\OneDrive\Documentos\chocorrol\A.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module A
+** Warning: C:\Users\bryca\OneDrive\Documentos\chocorrol\A.v(18): (vlog-2182) 'Mem' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	A
+
+} {} {}}
