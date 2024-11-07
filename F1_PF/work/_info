@@ -1,0 +1,394 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/bryca/OneDrive/Documentos/DataPath
+vAdder
+Z0 !s110 1730953484
+!i10b 1
+!s100 cl=V9ogOhbO[;gQ_aEK:;1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG=MJOBcm2Z[653Pa5PXM^0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/bryca/OneDrive/Documentos/F1_PF
+w1730928268
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/Adder.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/Adder.v
+!i122 1182
+L0 3 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1730953484.000000
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vALU
+Z8 !s110 1730953483
+!i10b 1
+!s100 IeDS0f8Q:CdD^Rg@^l=K70
+R1
+IH5X@JMcCHCCSIZfBROC`L0
+R2
+R3
+w1730950310
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/ALU.v
+!i122 1177
+L0 3 36
+R4
+r1
+!s85 0
+31
+Z9 !s108 1730953483.000000
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vALU_Control
+R0
+!i10b 1
+!s100 A6R7UdfB3[6^W8dAHBKHD0
+R1
+IhYbkhKC6>S5NB58m09a:72
+R2
+R3
+w1730950196
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU_Control.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/ALU_Control.v
+!i122 1178
+Z10 L0 3 24
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU_Control.v|
+!i113 1
+R6
+R7
+n@a@l@u_@control
+vBancoRegistros
+R8
+!i10b 1
+!s100 GCE3nO^NM]mN=W`k:e]F[3
+R1
+IkB9aVX2lhC[gzJL0BR[cE2
+R2
+R3
+w1730950831
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/BancoRegistros.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/BancoRegistros.v
+!i122 1175
+L0 3 41
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/BancoRegistros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/BancoRegistros.v|
+!i113 1
+R6
+R7
+n@banco@registros
+vF1_PF
+Z11 !s110 1730953485
+!i10b 1
+!s100 1`=SQi[_aZl2LPH9?K83W1
+R1
+IfaZd:?OD^8fo0o5kMoT1=1
+R2
+R3
+w1730953467
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/F1_PF.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/F1_PF.v
+!i122 1186
+L0 3 146
+R4
+r1
+!s85 0
+31
+Z12 !s108 1730953485.000000
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/F1_PF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/F1_PF.v|
+!i113 1
+R6
+R7
+n@f1_@p@f
+vMem
+R8
+!i10b 1
+!s100 elzA74_D4T^N<3nfoQSX52
+R1
+I@j7V0`:DW@Ol_Z0mH5RRa2
+R2
+R3
+w1730931435
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/Mem.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/Mem.v
+!i122 1176
+L0 3 27
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/Mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/Mem.v|
+!i113 1
+R6
+R7
+n@mem
+vMemInst
+R0
+!i10b 1
+!s100 bn`<dFNe:8kA]z0Ke>lHJ0
+R1
+INmHZhT7PATJFYB`dO]XNm2
+R2
+R3
+w1730952229
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/MemInst.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/MemInst.v
+!i122 1181
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/MemInst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/MemInst.v|
+!i113 1
+R6
+R7
+n@mem@inst
+vMuxAdder
+R0
+!i10b 1
+!s100 ^e:SNDU<Q7g7igKE^AdBL0
+R1
+I8`7YKXC@o^n2A55F20^Bd0
+R2
+R3
+w1730928535
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxAdder.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/MuxAdder.v
+!i122 1183
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxAdder.v|
+!i113 1
+R6
+R7
+n@mux@adder
+vMuxMem
+R0
+!i10b 1
+!s100 97;lVhmbPnLQYPASeS66P2
+R1
+I5nK@:@`LQAEOcXO4:KfZJ1
+R2
+R3
+w1730940697
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxMem.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/MuxMem.v
+!i122 1184
+L0 3 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxMem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxMem.v|
+!i113 1
+R6
+R7
+n@mux@mem
+vMuxUc
+R11
+!i10b 1
+!s100 FAMVfFJB5jU8VZIkBYW@A3
+R1
+IgRbBnDQ8iM5:ElPD3Ql>H0
+R2
+R3
+w1730933239
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxUc.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/MuxUc.v
+!i122 1185
+L0 3 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxUc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxUc.v|
+!i113 1
+R6
+R7
+n@mux@uc
+vPC
+R0
+!i10b 1
+!s100 ;Gc`^1JKVl>_]5adczbAl0
+R1
+IJY56Pj4eJUPF=^[TABgID0
+R2
+R3
+w1730928011
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/PC.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/PC.v
+!i122 1180
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/PC.v|
+!i113 1
+R6
+R7
+n@p@c
+vproyecto_tb
+!s110 1730936224
+!i10b 1
+!s100 dV_DH]ieza@^DWMoXlRaf2
+R1
+I89[Dg;0DSj]03Vohzg]km0
+R2
+R3
+w1730936220
+Z13 8C:\Users\bryca\OneDrive\Documentos\F1_PF\TB_F1PF.v
+Z14 FC:\Users\bryca\OneDrive\Documentos\F1_PF\TB_F1PF.v
+!i122 324
+Z15 L0 3 10
+R4
+r1
+!s85 0
+31
+!s108 1730936224.000000
+!s107 C:\Users\bryca\OneDrive\Documentos\F1_PF\TB_F1PF.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\bryca\OneDrive\Documentos\F1_PF\TB_F1PF.v|
+!i113 1
+R6
+R7
+vTB_ALU
+!s110 1730951294
+!i10b 1
+!s100 9M`NPi@f3VX2T:Tk2:OO`0
+R1
+I0ek33JYc_1II?[NAEZ14_2
+R2
+R3
+w1730951254
+Z17 8C:/Users/bryca/OneDrive/Documentos/F1_PF/TB_F1PF.v
+Z18 FC:/Users/bryca/OneDrive/Documentos/F1_PF/TB_F1PF.v
+!i122 1015
+L0 5 82
+R4
+r1
+!s85 0
+31
+!s108 1730951294.000000
+Z19 !s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/TB_F1PF.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/TB_F1PF.v|
+!i113 1
+R6
+R7
+n@t@b_@a@l@u
+vTB_F1_PF
+!s110 1730947364
+!i10b 1
+!s100 Q<f]Tb1f[OIzG>1bUg4zU1
+R1
+IEO89TmJP`g075Em5la9SX2
+R2
+R3
+w1730947360
+R17
+R18
+!i122 678
+L0 3 38
+R4
+r1
+!s85 0
+31
+!s108 1730947364.000000
+R19
+R20
+!i113 1
+R6
+R7
+n@t@b_@f1_@p@f
+vTB_F1PF
+R11
+!i10b 1
+!s100 RH]Gb?b3NG2>4AYT_dk5j3
+R1
+IgnMUo^?gCe[@]]Ync5BJ_0
+R2
+R3
+w1730953325
+R13
+R14
+!i122 1187
+R15
+R4
+r1
+!s85 0
+31
+R12
+Z21 !s107 C:\Users\bryca\OneDrive\Documentos\F1_PF\TB_F1PF.v|
+R16
+!i113 1
+R6
+R7
+n@t@b_@f1@p@f
+vUnidadControl
+R0
+!i10b 1
+!s100 A:kN8Hc=LOYEzAn5o4_[31
+R1
+IVbKhPOYdCGel2RLDMD_270
+R2
+R3
+w1730950406
+8C:/Users/bryca/OneDrive/Documentos/F1_PF/UnidadControl.v
+FC:/Users/bryca/OneDrive/Documentos/F1_PF/UnidadControl.v
+!i122 1179
+L0 2 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/bryca/OneDrive/Documentos/F1_PF/UnidadControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/bryca/OneDrive/Documentos/F1_PF/UnidadControl.v|
+!i113 1
+R6
+R7
+n@unidad@control

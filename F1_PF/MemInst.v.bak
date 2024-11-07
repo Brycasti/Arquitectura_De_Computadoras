@@ -1,0 +1,29 @@
+`timescale 1ns/1ns
+
+module MemInst(
+
+	input [31:0] MemInstIn,
+	
+	output reg[31:0] MemInsOut
+
+);
+
+initial begin 
+
+    $readmemb("instruccioness.txt",ROM); //Vamos a leer los datos desde un archivo llamado ram.txt y los carga en la memoria ROM
+end
+
+
+reg[31:0] Mem [0:31];
+
+always @*
+begin
+
+MemInsOut <= Mem[MemInstIn];
+
+end
+
+endmodule
+
+
+

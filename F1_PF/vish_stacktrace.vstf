@@ -1,0 +1,347 @@
+# Current time Wed Nov 06 18:45:12 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 6a8ec952. Traceback:
+# 0    0x6a8ec952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x6a8ecbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x742f0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 19:20:36 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc952. Traceback:
+# 0    0x752dc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 19:24:27 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc952. Traceback:
+# 0    0x752dc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x74250400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 19:45:14 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 6abfc952. Traceback:
+# 0    0x6abfc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x6abfcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x7533653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x75271fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x752739f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x75273a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x7527563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x6d040400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x752739f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 20:37:43 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc952. Traceback:
+# 0    0x752dc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eb30: '<unknown (@0x264eb30)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 21:04:43 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc952. Traceback:
+# 0    0x752dc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 21:11:18 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc955. Traceback:
+# 0    0x752dc955: 'TkSetWindowMenuBar + 0x59b5'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 21:16:06 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 6abfc952. Traceback:
+# 0    0x6abfc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x6abfcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x7533653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x75271fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x752739f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x75273a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x7527563c: 'Tcl_EvalObjEx + 0x2c'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 21:42:12 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc952. Traceback:
+# 0    0x752dc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eb30: '<unknown (@0x264eb30)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 21:43:54 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc955. Traceback:
+# 0    0x752dc955: 'TkSetWindowMenuBar + 0x59b5'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 21:47:13 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc955. Traceback:
+# 0    0x752dc955: 'TkSetWindowMenuBar + 0x59b5'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 22:13:14 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc955. Traceback:
+# 0    0x752dc955: 'TkSetWindowMenuBar + 0x59b5'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x74250400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 22:17:18 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc955. Traceback:
+# 0    0x752dc955: 'TkSetWindowMenuBar + 0x59b5'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Wed Nov 06 22:20:41 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 752dc955. Traceback:
+# 0    0x752dc955: 'TkSetWindowMenuBar + 0x59b5'
+# 1    0x752dcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6ac5653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6ab91fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6ab93a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6ab9563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x73df0400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264eee0: '<unknown (@0x264eee0)>'
+# 12   0x6ab939f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+

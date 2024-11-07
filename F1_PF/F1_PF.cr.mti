@@ -1,0 +1,92 @@
+C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU_Control.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_Control
+
+Top level modules:
+	ALU_Control
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/PC.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/BancoRegistros.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/BancoRegistros.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BancoRegistros
+
+Top level modules:
+	BancoRegistros
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxMem.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MuxMem
+
+Top level modules:
+	MuxMem
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/TB_F1PF.v {1 {vlog -work work -stats=none {C:\Users\bryca\OneDrive\Documentos\F1_PF\TB_F1PF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB_F1PF
+
+Top level modules:
+	TB_F1PF
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxAdder.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MuxAdder
+
+Top level modules:
+	MuxAdder
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxUc.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/MuxUc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MuxUc
+
+Top level modules:
+	MuxUc
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/F1_PF.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/F1_PF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module F1_PF
+
+Top level modules:
+	F1_PF
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/MemInst.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/MemInst.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MemInst
+
+Top level modules:
+	MemInst
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/UnidadControl.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/UnidadControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UnidadControl
+
+Top level modules:
+	UnidadControl
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/Mem.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/Mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mem
+
+Top level modules:
+	Mem
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/F1_PF/Adder.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/F1_PF/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}}
