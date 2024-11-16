@@ -1,0 +1,17 @@
+# Instrucciones tipo I, R y J en formato hexadecimal
+# Formato: [Opcode] [RS] [RT] [Immediate/Address] para tipo I
+# Formato: [Opcode] [RS] [RT] [RD] [Shamt] [Funct] para tipo R
+# Formato: [Opcode] [Address] para tipo J
+
+# Instrucciones de carga y almacenamiento (tipo I)
+8C010004  # LW R1, 4(R0) - Cargar dato desde dirección base R0 + 4 a R1
+AC020008  # SW R2, 8(R0) - Guardar dato de R2 en dirección base R0 + 8
+
+# Instrucción de suma (tipo R)
+00021820  # ADD R3, R1, R2 - R3 = R1 + R2
+
+# Instrucción de rama (tipo I)
+10220001  # BEQ R1, R2, 1 - Si R1 == R2, saltar a la siguiente instrucción + 1
+
+# Instrucción de salto (tipo J)
+08000002  # J 0x00000002 - Saltar a dirección 0x00000002
