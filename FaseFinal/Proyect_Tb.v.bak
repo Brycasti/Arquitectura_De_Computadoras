@@ -1,0 +1,51 @@
+
+`timescale 1ns / 1ps
+
+module MIPS_TestBench;
+
+    // Declaración de señales
+    reg clk;
+    reg reset;
+    wire [31:0] instruction;  // Instrucción actual
+    wire [31:0] pc;           // Contador de Programa
+    wire [31:0] alu_result;   // Resultado ALU
+    wire [31:0] mem_data;     // Datos de memoria
+
+    // Instancia del módulo principal
+    MIPS_Processor uut (
+        .clk(clk),
+        .reset(reset),
+        .instruction(instruction),
+        .pc(pc),
+        .alu_result(alu_result),
+        .mem_data(mem_data)
+    );
+
+    // Generador de reloj
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;  // Periodo de 10 ns
+    end
+
+    // Secuencia de prueba
+    initial begin
+        // Inicialización
+        reset = 1;
+        #10 reset = 0;  // Liberar reset
+
+        // Cargar archivos de inicialización
+        $readmemh("TestF2_MemInst.mem", uut.instruction_memory);
+        $readmemh("BancoRegistros.mem", uut.register_bank);
+
+        // Tiempo de simulación
+        #2000;  // Ajustar según el tamaño del test
+        $stop;  // Finaliza simulación
+    end
+
+    // Monitoreo de señales
+    initial begin
+        $monitor("Time: %0d, PC: %h, Instruction: %h, ALU_Result: %h", 
+                  $time, pc, instruction, alu_result);
+    end
+endmodule
+

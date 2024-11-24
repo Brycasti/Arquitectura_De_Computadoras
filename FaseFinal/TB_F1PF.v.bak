@@ -1,0 +1,29 @@
+`timescale 1ns/1ns
+
+`timescale 1ns/1ns
+
+module TB_F1PF;
+
+    reg reloj;
+    wire [31:0] mem_ins_out; // Señal para observar la salida de memoria de instrucciones
+
+    // Instancia del módulo F1_PF
+    F1_PF uut (
+        .reloj(reloj)
+    );
+
+    initial begin
+        // Generación del reloj
+        reloj = 0;
+        forever #5 reloj = ~reloj;
+    end
+
+initial begin
+        // Estímulos iniciales
+        #10;
+        
+
+        // Agrega otras verificaciones según sea necesario para la simulación
+        #100 $finish;
+
+endmodule

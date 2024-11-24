@@ -1,0 +1,151 @@
+`timescale 1ns/1ns
+
+module F1_PF(
+    input reloj
+);
+
+// Cables para PC
+wire [31:0] PC_out;
+wire [31:0] PC_in;
+
+// Cables para el Adder
+wire [31:0] AdderOut;
+
+// Cables para el MuxAdder
+wire [31:0] MuxAdderOut;
+
+// Cables para MemInst (Memoria de Instrucciones)
+wire [31:0] MemInsOut;
+
+// Cables para UnidadControl (Unidad de Control)
+wire RegDst, Branch, MemRead, MemReg, MemWrite, ALUSrc, RegWrite;
+wire [1:0] ALUOp;
+
+// Cables para ALU
+wire [31:0] ALU_result;
+wire Zero;
+
+// Cables para MuxUc (MUX de Dirección de Escritura de Registros)
+wire [4:0] WriteReg;
+
+// Cables para BancoRegistros
+wire [31:0] DR1, DR2;
+wire [4:0] AR1, AR2, AW;
+wire [31:0] DW;
+
+// Cables para ALU_Control
+wire [3:0] ALUop;
+wire [5:0] fct;
+
+// Cables para la extensión de signo
+wire [31:0] sign_extended;
+
+// Cables para Mux de Fuente ALU
+wire [31:0] ALU_input2;
+
+// Cables para Mem (Memoria de Datos)
+wire [31:0] Mem_Datoout;
+
+// Instancia de PC
+PC instPC(
+    .PCin(MuxAdderOut),
+    .clk(reloj),
+    .PCout(PC_out)
+);
+
+// Instancia del Adder
+Adder instAdder(
+    .sum(PC_out),
+    .num(32'd4), // Incrementa PC en 4 para la siguiente instrucción
+    .AdderOut(AdderOut)
+);
+
+// Instancia del MuxAdder
+MuxAdder instMuxAdder(
+    .VL0(AdderOut),
+    .VL1(ALU_result), // Resultado del cálculo de la dirección de salto
+    .Sel(Branch & Zero), // Selecciona salto si se cumple la condición
+    .MuxAdderOut(MuxAdderOut)
+);
+
+// Instancia de MemIns (Memoria de Instrucciones)
+MemInst instMemIns(
+    .MemInstIn(PC_out),
+    .MemInsOut(MemInsOut)
+);
+
+
+// Extrae los campos de la instrucción para facilitar las conexiones
+assign AR1 = MemInsOut[25:21]; // rs
+assign AR2 = MemInsOut[20:16]; // rt
+assign AW = WriteReg; // Registro de destino
+
+// Instancia del MuxUc (MUX para Dirección de Escritura de Registro)
+MuxUc instMuxUc(
+    .VaL0(MemInsOut[20:16]), // rt
+    .VaL1(MemInsOut[15:11]), // rd
+    .Str(RegDst),
+    .WriteReg(WriteReg)
+);
+
+// Instancia de BancoRegistros
+BancoRegistros instBancoRegistros(
+    .AR1(AR1),
+    .AR2(AR2),
+    .AW(AW),
+    .DW(MemReg ? Mem_Datoout : ALU_result),
+    .EnW(RegWrite),
+    .DR1(DR1),
+    .DR2(DR2)
+);
+
+// Instancia de ALU_Control
+ALU_Control instALU_Control(
+    .fct(MemInsOut[5:0]),
+    .AC(ALUOp),
+    .AlU(ALUop)
+);
+
+// Instancia del Mux de Fuente ALU
+MuxMem instMuxMem(
+    .vL0(DR2),
+    .vL1(sign_extended),
+    .slt(ALUSrc),
+    .VLout(ALU_input2)
+);
+
+// Instancia de ALU
+ALU insALU(
+    .DR1(DR1),
+    .DR2(ALU_input2),
+    .ALUop(ALUop),
+    .ALURes(ALU_result),
+    .Zero(Zero)
+);
+
+// Instancia de Mem (Memoria de Datos)
+Mem instMem(
+    .Datoin(DR2),
+    .Dir(ALU_result),
+    .EnW(MemWrite),
+    .EnR(MemRead),
+    .Datoout(Mem_Datoout)
+);
+
+// Instancia de UnidadControl (Unidad de Control)
+UnidadControl instUnidadControl(
+    .Instruction(MemInsOut[31:26]),
+    .RegDst(RegDst),
+    .Branch(Branch),
+    .MemRead(MemRead),
+    .MemReg(MemReg),
+    .ALUOp(ALUOp), 
+    .MemWrite(MemWrite),
+    .ALUSrc(ALUSrc),
+    .RegWrite(RegWrite)
+);
+
+// Extensión de signo para el campo inmediato
+assign sign_extended = {{16{MemInsOut[15]}}, MemInsOut[15:0]};
+
+endmodule

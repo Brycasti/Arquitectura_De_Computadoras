@@ -1,0 +1,134 @@
+C:/Users/bryca/OneDrive/Documentos/FAC2/Shift_left2.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Shift_left2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_left
+
+Top level modules:
+	Shift_left
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/ALU_Control.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/ALU_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_Control
+
+Top level modules:
+	ALU_Control
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/PC.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Pc
+
+Top level modules:
+	Pc
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Unidad_Control.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Unidad_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/InstructionDecode.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/InstructionDecode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionDecode
+
+Top level modules:
+	InstructionDecode
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Mux_5bits.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Mux_5bits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux5bits
+
+Top level modules:
+	Mux5bits
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Proyectofin.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Proyectofin.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module proyect
+
+Top level modules:
+	proyect
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Memoria.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Memoria.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria
+
+Top level modules:
+	Memoria
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/ALU.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Memoria_Instrucciones.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Memoria_Instrucciones.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoriainstrucciones
+
+Top level modules:
+	Memoriainstrucciones
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/MuxAdder.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/MuxAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MuxAdder
+
+Top level modules:
+	MuxAdder
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Proyect_Tb.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Proyect_Tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module proyecto_tb
+
+Top level modules:
+	proyecto_tb
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Write_Back.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Write_Back.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Write_Back
+
+Top level modules:
+	Write_Back
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Banco_Registros.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Banco_Registros.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bank
+
+Top level modules:
+	bank
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/InstructionFetch.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/InstructionFetch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instructionFetch
+
+Top level modules:
+	instructionFetch
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Mux_31bits.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Mux_31bits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux31bits
+
+Top level modules:
+	Mux31bits
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Sign_Extend.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Sign_Extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Adder.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/bryca/OneDrive/Documentos/FAC2/Execution_AdressCalc.v {1 {vlog -work work -stats=none C:/Users/bryca/OneDrive/Documentos/FAC2/Execution_AdressCalc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Execution_AdressCalc
+
+Top level modules:
+	Execution_AdressCalc
+
+} {} {}}
